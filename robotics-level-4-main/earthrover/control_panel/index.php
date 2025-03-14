@@ -124,7 +124,7 @@ echo"<div align='center' id='box_outer'>";//------------------------
 					$href= 'http://'.$host."/earthrover/object_detection/web";
 					echo"<a id='img_object_detection' style=$style_img href='$href' target='_blank'><img src='css/images/obj_detection.png' height='60px'></a>";
 					
-					$href= 'http://'.$host."";
+					$href= 'http://'.$host.":8000";
 					echo"<a id='img_human_following' style=$style_img href='$href' target='_blank'><img src='css/images/human_follower.png' height='60px'></a>";
 					
 					$href= 'http://'.$host.':2204';
